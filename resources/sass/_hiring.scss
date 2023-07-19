@@ -1,0 +1,60 @@
+#hiring_banner{
+    height: 400px;
+    background-image: url('https://images.samsung.com/is/image/samsung/assets/vn/about-us/careers/job-fields/pc/AS.4.2_JobFields_img01.png?$1920_N_JPG$');
+    background-size: cover;
+
+    #title{
+        display:grid;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+#hiring_intro{
+    font-family: $font-family-sans-serif;
+    font-weight: $font-Regular;
+    color: $color-A;
+}
+
+#hiring_jobs{   
+    min-height: 300px; 
+    background-color: var(--i);
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    #jobs-description{
+        display: grid;
+        justify-content: center;
+        align-content: center;
+
+        #jobs-title{
+            font-family: $font-family-sans-serif;
+            font-weight: $font-Regular;
+            color: $logo-color;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        #jobs-Requirement{
+            #header{
+                p{
+                    font-family: $font-family-sans-serif;
+                    font-weight: $font-Bold;
+                }
+            }
+            #task{
+                p{
+                    font-family: $font-family-sans-serif;
+                    font-weight: $font-Light;
+                }
+            }
+        }
+    }
+
+    #cover-image{
+        display: grid !important;
+        justify-content: center;
+        align-content: center;
+    }
+}

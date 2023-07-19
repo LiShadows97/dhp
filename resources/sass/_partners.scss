@@ -1,0 +1,42 @@
+#partner-logos-card{
+    position: relative;
+    width: 18rem; 
+    height:200px; 
+    border-radius: 10px;
+    overflow:hidden;
+    justify-content: center;
+    
+    img{
+        width: 100%;
+        height: auto;
+    }
+    
+    #partner-logos-card-body{
+        position: absolute;
+        top:120px;
+        height: 200px;
+        transition: 1s;
+        background-color: whitesmoke;
+        opacity: 0.5;
+        
+        #partner-flag{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            
+            img{
+                width:auto; 
+                height:30px;
+            }
+        }        
+
+        &:hover{
+            &::before{
+                transform: translateY(0px);
+            }
+            content: '';
+            transform: translateY(-120px);
+            opacity: 0.85;
+        }
+    }
+}
